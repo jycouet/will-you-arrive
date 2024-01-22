@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { route } from "$lib/ROUTES";
 </script>
 
 <svelte:head>
@@ -10,3 +11,14 @@
 </svelte:head>
 
 <slot />
+
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<hr />
+<a href={route("/about")}>About</a> |
+<a href={route("/about2")}>About2</a> |
+<a target="_blank" href={route("gh")}>GitHub</a>
