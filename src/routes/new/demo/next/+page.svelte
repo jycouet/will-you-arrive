@@ -9,13 +9,13 @@
         /demo
           /next
             +page@new.svelte   // we are here
-      /HowManyWinners
-        +page.svelte
+        /HowManyWinners
+          +page.svelte
 	</pre>
 
 <input type="number" bind:value={nb} />
-<pre> &lt;a href="/new/howManyWinners?{nb}"&gt; Will I arrive ? &lt;/a&gt;</pre>
-<a href="/new/howManyWinners?nb={nb}">Will I arrive ?</a>
+<pre> &lt;a href="/new/howManyWinners?{nb}"&gt; Will you arrive ? &lt;/a&gt;</pre>
+<a href="/new/howManyWinners?nb={nb}">Will you arrive ?</a>
 
 <ul>
   <li>YES: Hands up</li>

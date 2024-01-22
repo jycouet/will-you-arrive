@@ -10,8 +10,8 @@
           +page.svelte
 	</pre>
 
-<pre> &lt;a href="/QYY"&gt; Will I arrive ? &lt;/a&gt;</pre>
-<a href="/QYY">Will I arrive ?</a>
+<pre> &lt;a href="/QYY"&gt; Will you arrive ? &lt;/a&gt;</pre>
+<a href="/QYY">Will you arrive ?</a>
 
 <ul>
   <li>YES: Hands up</li>

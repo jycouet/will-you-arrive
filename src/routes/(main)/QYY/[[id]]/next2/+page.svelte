@@ -14,8 +14,8 @@
           +page@new.svelte
 	</pre>
 
-<pre> &lt;a href="/new/demo"&gt; Will I arrive ? &lt;/a&gt;</pre>
-<a href="/new/demo">Will I arrive ?</a>
+<pre> &lt;a href="/new/demo"&gt; Will you arrive ? &lt;/a&gt;</pre>
+<a href="/new/demo">Will you arrive ?</a>
 
 <ul>
   <li>YES: Hands up</li>
