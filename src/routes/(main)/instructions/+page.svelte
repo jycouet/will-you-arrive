@@ -9,9 +9,9 @@
 {/each}
 
 {#if repeat > 1}
-  <a href="instructions?repeat={repeat - 1}">Previous</a>
+  <a href="instructions?repeat={repeat - 1}">Previous</a> |
 {/if}
 <a href="instructions?repeat={repeat + 1}">Next</a>
-{#if repeat > 3}
-  <a href="/Q00">First Question</a>
+{#if repeat > 2}
+  | <a href="/Q00">First Question</a>
 {/if}
